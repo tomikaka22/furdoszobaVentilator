@@ -139,7 +139,7 @@ void setup() {
   humidityThreshold = preferences.getInt("humidityThreshold", humidityThreshold);
   
   Serial.println("Starting...");
-  connectToWiFi("SSID", "PASS");
+  connectToWiFi("Vincze 2.4Ghz", "Vilidu-Szisza-Amogusz-Szusz-69420");
   wifi_set_sleep_type(LIGHT_SLEEP_T);
 
   DefaultHeaders::Instance().addHeader("Access-Control-Allow-Origin", "*");

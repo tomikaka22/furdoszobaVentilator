@@ -4,7 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite dev --host",
-		"build": "vite build && svelteesp32 -e async -s ./build -o ./esp8266/svelteesp32.h --etag",
+		"build": "vite build && svelteesp32 -e async -s ./build -o ./furdoszoba/svelteesp32.h --etag",
 		"preview": "vite preview"
 	},
 	"devDependencies": {
