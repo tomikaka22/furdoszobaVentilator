@@ -5,7 +5,7 @@
 	import { fade } from 'svelte/transition';
 
 	export let data;
-	setInterval(invalidateAll, 2000);
+	setInterval(invalidateAll, 2500);
 
 </script>
 
